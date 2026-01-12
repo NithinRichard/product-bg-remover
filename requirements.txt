@@ -1,6 +1,6 @@
-streamlit>=1.31.0
-rembg>=2.0.53
-Pillow>=10.2.0
-numpy>=1.26.0
-onnxruntime-cpu>=1.16.0
+streamlit
+rembg
+Pillow
+numpy
+onnxruntime-cpu
 opencv-python-headless
