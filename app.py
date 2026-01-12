@@ -59,11 +59,11 @@ with col1:
     process_btn = st.button("✨ Process Photo")
     st.markdown('</div>', unsafe_allow_html=True)
 
-if uploaded_file is not None:
+    if uploaded_file is not None:
     input_image = Image.open(uploaded_file)
     
     with col1:
-        st.image(input_image, caption="Original Photo", width="stretch")
+        st.image(input_image, caption="Original Photo", use_container_width=True)
 
     if process_btn:
         with st.spinner("Processing image... Removing background and detecting colors..."):
@@ -92,7 +92,7 @@ if uploaded_file is not None:
                 
                 with col2:
                     st.success(f"Done! Detected product required a {detected_bg} background.")
-                    st.image(result_img, caption=f"Processed Photo ({detected_bg} BG)", width="stretch")
+                    st.image(result_img, caption=f"Processed Photo ({detected_bg} BG)", use_container_width=True)
                     
                     # Download button
                     buf = io.BytesIO()
