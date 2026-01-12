@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# Workspace/IDE
+.vscode/
+.idea/
+.gemini/
+
+# Assets (Large files or generated images)
+assets/processed/
+temp/
+*1768200*.png
+*1768199*.png
