@@ -2,4 +2,6 @@ streamlit
 rembg
 Pillow
 numpy
-onnxruntime
+numba>=0.59.0
+llvmlite>=0.42.0
+opencv-python-headless
